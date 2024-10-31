@@ -35,8 +35,8 @@ A highly skilled Frontend React Developer with over 4 years of experience in bui
 
 ## PROFESSIONAL EXPERIENCE
 
-### [Elinext](https://www.elinext.com/)
-**Frontend Developer - AXON Orchestration** | _(May 2021 - Present)_  
+### [Elinext](https://www.elinext.com/) | May 2021 - Present
+**Frontend Developer - AXON Orchestration** | _(3 years)_  
 - Developed and maintained React applications with Redux Toolkit and TypeScript, building dynamic user interfaces and integrating real-time features via WebSockets.
 - Implemented custom charts and network graphs using Chart.js and Vis Network, displaying complex data structures.
 - Migrated Redux to RTK, reducing unnecessary re-renders and improving application performance.
