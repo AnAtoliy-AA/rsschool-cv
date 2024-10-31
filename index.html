@@ -4,15 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anatoliy Aliaksandrau CV</title>
+  <title>Anatoliy Aliaksandrau 4 years experience in Frontend Development</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="print.css" media="print" />
 </head>
 
 <body>
 
   <div class="container">
     <header>
-
+      <button id="download-pdf" style="margin-top: 20px;">Download as PDF</button>
       <h1>Anatoliy Aliaksandrau</h1>
 
       <h2>FRONTEND REACT DEVELOPER</h2>
@@ -143,7 +144,7 @@
       </ul>
     </main>
 
-    <footer class="profile__footer">
+    <footer class="profile__footer no-print">
       <a href="https://github.com/AnAtoliy-AA"><img src="./assets/images/github_logo.bmp" alt="github_logo"
           class="footer__logo"></a>
       <p>2024</p>
@@ -155,5 +156,7 @@
   </div>
 
 </body>
+
+<script src="downloadPdf.js"></script>
 
 </html>
