@@ -1,0 +1,154 @@
+* {
+      box-sizing: border-box;
+}
+* {
+      box-sizing: border-box;
+}
+
+body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      align-items: center;
+      min-height: 100vh;
+}
+
+.container {
+      max-width: 800px;
+      padding: 20px;
+      background-color: #1e1e1e;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      margin: auto;
+}
+
+h1,
+h2,
+h3 {
+      color: #fff;
+.container {
+      max-width: 800px;
+      padding: 20px;
+      background-color: #1e1e1e;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      margin: auto;
+}
+
+h1,
+h2,
+h3 {
+      color: #fff;
+}
+
+a {
+      color: #3b87e0;
+      text-decoration: none;
+a {
+      color: #3b87e0;
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: underline;
+a:hover {
+      text-decoration: underline;
+}
+
+hr {
+      border: none;
+      height: 1px;
+      background-color: #333;
+      margin: 20px 0;
+}
+
+ul {
+      padding: 0 30px;
+hr {
+      border: none;
+      height: 1px;
+      background-color: #333;
+      margin: 20px 0;
+}
+
+ul {
+      padding: 0 30px;
+}
+
+.contacts__list {
+.contacts__list {
+      list-style-type: none;
+}
+
+ul li {
+      margin-bottom: 8px;
+ul li {
+      margin-bottom: 8px;
+}
+
+.footer__logo {
+      height: 5vh;
+      pointer-events: none;
+.footer__logo {
+      height: 5vh;
+      pointer-events: none;
+}
+
+.profile__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 10vh;
+}
+
+#download-pdf {
+      background-color: #006adb;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+}
+
+#download-pdf:hover {
+      background-color: #0056b3;
+}
+
+#download-pdf:active {
+      background-color: #004085;
+      transform: translateY(1px);
+}
+
+#download-pdf {
+      background-color: #006adb;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+}
+
+#download-pdf:hover {
+      background-color: #0056b3;
+}
+
+#download-pdf:active {
+      background-color: #004085;
+      transform: translateY(1px);
+}
