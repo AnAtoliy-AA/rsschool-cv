@@ -39,6 +39,32 @@ a:hover {
       text-decoration: underline;
 }
 
+.main-nav {
+      padding: 1em;
+      border-bottom: 1px solid #ddd;
+}
+
+.main-nav ul {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+}
+
+.main-nav ul li {
+      margin: 0;
+}
+
+.main-nav a {
+      text-decoration: none;
+      color: #007bff;
+}
+
+.main-nav a:hover {
+      text-decoration: underline;
+}
+
 hr {
       border: none;
       height: 1px;
@@ -48,6 +74,10 @@ hr {
 
 ul {
       padding: 0 30px;
+}
+
+header {
+      margin-top: 15px;
 }
 
 .contacts__list {
