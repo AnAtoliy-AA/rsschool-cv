@@ -1,10 +1,24 @@
+:root {
+      --bg-color: #121212;
+      --text-color: #e0e0e0;
+      --container-bg-color: #1e1e1e;
+      --heading-color: #ffffff;
+      --link-color: #3b87e0;
+      --link-hover-color: #007bff;
+      --border-color: #333;
+      --button-bg-color: #006adb;
+      --button-hover-bg-color: #0056b3;
+      --button-active-bg-color: #004085;
+      --shadow-color: rgba(0, 0, 0, 0.7);
+}
+
 * {
       box-sizing: border-box;
 }
 
 body {
-      background-color: #121212;
-      color: #e0e0e0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
       font-family: Arial, sans-serif;
       line-height: 1.6;
       margin: 0;
@@ -18,20 +32,20 @@ body {
 .container {
       max-width: 800px;
       padding: 20px;
-      background-color: #1e1e1e;
+      background-color: var(--container-bg-color);
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 0 10px var(--shadow-color);
       margin: auto;
 }
 
 h1,
 h2,
 h3 {
-      color: #fff;
+      color: var(--heading-color);
 }
 
 a {
-      color: #3b87e0;
+      color: var(--link-color);
       text-decoration: none;
 }
 
@@ -41,7 +55,7 @@ a:hover {
 
 .main-nav {
       padding: 1em;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid var(--border-color);
 }
 
 .main-nav ul {
@@ -58,7 +72,7 @@ a:hover {
 
 .main-nav a {
       text-decoration: none;
-      color: #007bff;
+      color: var(--link-hover-color);
 }
 
 .main-nav a:hover {
@@ -68,7 +82,7 @@ a:hover {
 hr {
       border: none;
       height: 1px;
-      background-color: #333;
+      background-color: var(--border-color);
       margin: 20px 0;
 }
 
@@ -101,8 +115,8 @@ ul li {
 }
 
 #download-pdf {
-      background-color: #006adb;
-      color: #fff;
+      background-color: var(--button-bg-color);
+      color: var(--heading-color);
       padding: 10px 20px;
       border: none;
       border-radius: 5px;
@@ -112,10 +126,10 @@ ul li {
 }
 
 #download-pdf:hover {
-      background-color: #0056b3;
+      background-color: var(--button-hover-bg-color);
 }
 
 #download-pdf:active {
-      background-color: #004085;
+      background-color: var(--button-active-bg-color);
       transform: translateY(1px);
 }
